@@ -2,6 +2,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+[Temlate URL](https://railway.app/template/alwspm?referralCode=Rg6Rat)
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/alwspm?referralCode=Rg6Rat)
+
 First, run the development server:
 
 ```bash
