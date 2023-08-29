@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-[Temlate URL](https://railway.app/template/alwspm?referralCode=Rg6Rat)
+[Temlate URL](https://railway.app/template/alwspm?referralCode=Rg6Rat) : Next.js 13 + Shadcn UI + Strapi + PostgreSQL
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/alwspm?referralCode=Rg6Rat)
 
