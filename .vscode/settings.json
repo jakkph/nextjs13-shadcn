@@ -1,0 +1,173 @@
+{
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.showAbbreviationSuggestions": true,
+  "emmet.showExpandedAbbreviation": "always",
+  "WillLuke.nextjs.addTypesOnSave": true,
+  "WillLuke.nextjs.hasPrompted": true,
+  // JS
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // JSON
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.autoClosingBrackets": "always"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  // Extension: ESLint
+  "eslint.options": {
+    "rulePaths": [
+      "eslint-internal-rules"
+    ]
+  },
+  // Extension: Git
+  "git.rebaseWhenSync": true,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  // Extension: Prettier
+  "prettier.requireConfig": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  // Extension: ESLint
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": false,
+    "source.fixAll.stylelint": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "eslint.format.enable": true,
+  // "npm.packageManager": "pnpm",
+  // Extension: cSpell
+  "cSpell.words": [
+    "Customizer",
+    "Composables",
+    "flagpack",
+    "Iconify",
+    "psudo",
+    "stylelint",
+    "touchless",
+    "triggerer",
+    "vuetify"
+  ],
+  "search-node-modules.path": "node_modules",
+  "markdown.extension.toc.updateOnSave": false,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  // Extension: Comment Anchors
+  "commentAnchors.epic.provideAutoCompletion": true,
+  "commentAnchors.tags.anchors": {
+    "ℹ️": {
+      "scope": "hidden",
+      // This color is taken from "Better Comments" Extension (?)
+      "highlightColor": "#3498DB",
+      "styleMode": "comment",
+      "isItalic": false
+    },
+    "👉": {
+      "scope": "file",
+      // This color is taken from "Better Comments" Extension (*)
+      "highlightColor": "#98C379",
+      "styleMode": "comment",
+      "isItalic": false
+    },
+    "❗": {
+      "scope": "hidden",
+      // This color is taken from "Better Comments" Extension (*)
+      "highlightColor": "#FF2D00",
+      "styleMode": "comment",
+      "isItalic": false
+    },
+    "ANCHOR": {
+      "iconColor": "default",
+      "highlightColor": "#A8C023",
+      "scope": "file"
+    },
+    "TODO": {
+      "iconColor": "blue",
+      "highlightColor": "#3ea8ff",
+      "scope": "workspace"
+    },
+    "FIXME": {
+      "iconColor": "red",
+      "highlightColor": "#F44336",
+      "scope": "workspace"
+    },
+    "STUB": {
+      "iconColor": "purple",
+      "highlightColor": "#BA68C8",
+      "scope": "file"
+    },
+    "NOTE": {
+      "iconColor": "orange",
+      "highlightColor": "#FFB300",
+      "scope": "file"
+    },
+    "REVIEW": {
+      "iconColor": "green",
+      "highlightColor": "#64DD17",
+      "scope": "workspace"
+    },
+    "SECTION": {
+      "iconColor": "blurple",
+      "highlightColor": "#896afc",
+      "scope": "workspace",
+      "behavior": "region"
+    },
+    "LINK": {
+      "iconColor": "#2ecc71",
+      "highlightColor": "#2ecc71",
+      "scope": "workspace",
+      "behavior": "link"
+    }
+  },
+  // Extension: fabiospampinato.vscode-highlight
+  "highlight.regexFlags": "gi",
+  "highlight.regexes": {
+    // We flaged this for enforcing logical CSS properties
+    "(100vh|translate|margin:|padding:|margin-left|margin-right|rotate|text-align|border-top|border-right|border-bottom|border-left|float|background-position|transform|width|height|top|left|bottom|right|float|clear|(p|m)(l|r)-|border-(start|end)-(start|end)-radius)": [
+      {
+        // "rangeBehavior": 1,
+        "borderWidth": "1px",
+        "borderColor": "#ff0000",
+        "borderStyle": "solid"
+      }
+    ],
+    "(overflow-x:|overflow-y:)": [
+      {
+        // "rangeBehavior": 1,
+        "borderWidth": "1px",
+        "borderColor": "#18e629",
+        "borderStyle": "solid"
+      }
+    ]
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  }
+}
